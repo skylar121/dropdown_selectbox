@@ -3,9 +3,9 @@ const list = document.querySelector(".list");
 function toggleShow(event) {
   list.classList.toggle('show');
   if(list.classList.contains('show')) {
-      title.style.backgroundImage = "url(/images/icon-Triangle-up.png)";
+      title.style.backgroundImage = "url(./images/icon-Triangle-up.png)";
   } else {
-      title.style.backgroundImage = "url(/images/icon-Triangle-down.png)";
+      title.style.backgroundImage = "url(./images/icon-Triangle-down.png)";
   };
 };
 

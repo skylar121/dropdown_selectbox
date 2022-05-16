@@ -33,7 +33,7 @@ body {
     font-size: 14px;
     line-height: 16px;
     background-color: #ffffff;
-    background: url(/images/icon-Triangle-down.png) no-repeat;
+    background: url(./images/icon-Triangle-down.png) no-repeat;
     background-position: right 14px center;
 
     /* 텍스트가 길어질 경우 대비해서 width 유지하고 말줄임 되도록 */
@@ -48,7 +48,7 @@ body {
 }
 
 .wrapper .favorite.title {
-    background-image: url(/images/icon-Triangle-down.png);
+    background-image: url(./images/icon-Triangle-down.png);
 }
 
 .list {
@@ -79,6 +79,7 @@ body {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    cursor: pointer;
 }
 
 .list li button:hover, .list li button:focus {
